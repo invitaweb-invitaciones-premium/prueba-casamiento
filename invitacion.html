@@ -589,7 +589,6 @@ function addRSVPPerson(){
     <div class="asistencia-check"><button class="toggle-chip active" data-tipo="ceremonia" onclick="toggleChip(this)" type="button"><span class="chip-icon">⛪</span> Solo ceremonia</button><button class="toggle-chip active" data-tipo="fiesta" onclick="toggleChip(this)" type="button"><span class="chip-icon">🥂</span> Ceremonia y recepción</button></div>
     <div><label class="field-label">Dato importante (opcional)</label><input class="rsvp-input rsvp-dato-input" placeholder="Ej: soy vegetariano/a, tengo alergia..." type="text"/></div>
   `;
-  `;
   container.appendChild(div); rsvpPersonCount++;
 }
 function removeRSVPPerson(idx){ const el=document.getElementById('rsvp-form-'+idx); if(el) el.remove(); }
