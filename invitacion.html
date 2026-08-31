@@ -43,7 +43,7 @@ body{
 h1,h2{font-weight:400;}
 .gold-line{width:70px;height:1px;margin:14px auto 22px;background:linear-gradient(90deg,transparent,var(--gold-strong),transparent);}
 .sec-tag{display:block;text-align:center;font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:5px;text-transform:uppercase;color:var(--gold-strong);margin-bottom:10px;font-weight:500;}
-.sec-title{font-family:'Playfair Display',serif;font-size:clamp(26px,6vw,40px);font-weight:600;color:var(--dark);line-height:1.2;font-style:italic;text-align:center;}
+.sec-title{font-family:'Playfair Display',serif;font-size:clamp(26px,6vw,40px);font-weight:600;color:var(--wine);line-height:1.2;font-style:italic;text-align:center;}
 .sec-body{text-align:center;max-width:520px;margin:0 auto;font-size:18px;color:var(--text2);line-height:1.7;}
 .section{padding:70px 20px;position:relative;background:rgba(255,255,255,0.55);}
 .s-dark{}
@@ -152,8 +152,9 @@ h1,h2{font-weight:400;}
 
 /* SLIDESHOW */
 .slides-wrap{position:relative;max-width:340px;margin:30px auto 0;}
-.slide{display:none;flex-direction:column;align-items:center;gap:14px;animation:slideIn .6s ease forwards;}
-.slide.active{display:flex;}
+.slide{display:none;flex-direction:column;align-items:center;gap:14px;}
+.slide.active{display:flex;animation:slideIn .6s ease forwards;}
+.slide-frame{min-height:clamp(220px,66vw,290px);display:flex;flex-direction:column;align-items:center;justify-content:center;}
 @keyframes slideIn{from{opacity:0;transform:scale(.97);}to{opacity:1;transform:scale(1);}}
 .slide-frame{position:relative;padding:14px;border-radius:20px;background:linear-gradient(155deg,var(--cream) 0%,#f6ecdd 100%);border:1px solid rgba(201,169,110,.35);box-shadow:0 10px 30px rgba(95,111,84,.14),inset 0 0 0 5px rgba(201,169,110,.08);}
 .slide-frame::before,.slide-frame::after{position:absolute;font-family:serif;font-size:18px;color:var(--gold-strong);opacity:.55;content:'❧';}
@@ -237,8 +238,8 @@ footer{background:var(--dark);color:var(--beige2);text-align:center;padding:50px
 <!-- ═══ INVITACIÓN ═══ -->
 <section class="section" id="invitacion">
 <span class="sec-tag">con todo nuestro amor</span>
-<h2 class="sec-title"><span style="color:var(--wine);">Valentina</span> &amp; <span style="color:var(--wine);">Mateo</span></h2>
-<div class="gold-line"></div>
+<h2 class="sec-title">Valentina &amp; Mateo</h2>
+  <div class="gold-line"></div>
 <div class="invite-card">
 <p class="invite-who">Junto a nuestras familias</p>
 <p class="invite-text">Tenemos el enorme placer de invitarte a acompañarnos en el día en que unimos nuestras vidas para siempre.<br/><br/>Tu presencia hará este momento aún más especial.</p>
