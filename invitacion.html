@@ -360,31 +360,31 @@ footer{background:var(--dark);color:var(--beige2);text-align:center;padding:50px
 </section>
 
 <!-- ═══ SLIDESHOW ═══ -->
-<section class="section" id="slideshow-section">
-<span class="sec-tag">nuestro recorrido</span>
-<h2 class="sec-title">Un poco de nosotros</h2>
+<section class="section s-dark" id="slideshow-section">
+<span class="sec-tag">un recorrido</span>
+<h2 class="sec-title">Estos 15 años...</h2>
 <div class="gold-line"></div>
-<p class="sec-body">Cada foto, un capítulo de esta historia que hoy sigue escribiéndose.</p>
+<p class="sec-body">Cada foto, un momento. Cada momento, parte de quien soy hoy.</p>
 <div class="slides-wrap">
+<div class="slide active">
+<div class="slide-photo"><div class="slide-photo-inner"><img alt="Foto 1" onerror="handleSlideImgError(this,1)" src="img/foto-1.jpg"/></div></div>
+</div>
 <div class="slide">
-<div class="slide-frame" style="border-color:rgba(95,111,84,.35);">
-<div class="slide-photo" style="border:3px solid var(--sage-deep);">
+<div class="slide-photo"><div class="slide-photo-inner"><img alt="Foto 2" onerror="handleSlideImgError(this,2)" src="img/foto-2.jpg"/></div></div>
 </div>
-</div>
-<div class="slide"><div class="slide-frame"><div class="slide-photo"><img alt="Valentina y Mateo" onerror="handleSlideImgError(this,2)" src="img/boda-foto-2.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;"/></div></div></div>
-<div class="slide"><div class="slide-frame"><div class="slide-photo"><img alt="Valentina y Mateo" onerror="handleSlideImgError(this,3)" src="img/boda-foto-3.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;"/></div></div></div>
-<div class="slide"><div class="slide-frame"><div class="slide-photo"><img alt="Valentina y Mateo" onerror="handleSlideImgError(this,4)" src="img/boda-foto-4.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;"/></div></div></div>
 <div class="slide">
-<div class="slide-frame" style="border-color:rgba(95,111,84,.35);">
-<div class="slide-photo" style="border:3px solid var(--sage-deep);">
-<img alt="Valentina y Mateo" onerror="handleSlideImgError(this,5)" src="img/boda-foto-5.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;"/></div>
+<div class="slide-photo"><div class="slide-photo-inner"><img alt="Foto 3" onerror="handleSlideImgError(this,3)" src="img/foto-3.jpg"/></div></div>
 </div>
+<div class="slide">
+<div class="slide-photo"><div class="slide-photo-inner"><img alt="Foto 4" onerror="handleSlideImgError(this,4)" src="img/foto-4.jpg"/></div></div>
 </div>
 </div>
 <div class="slide-dots" id="slideDots"></div>
-<div class="slide-nav"><button onclick="changeSlide(-1)">←</button><button onclick="changeSlide(1)">→</button></div>
+<div class="slide-nav">
+<button onclick="changeSlide(-1)">←</button>
+<button onclick="changeSlide(1)">→</button>
+</div>
 </section>
-
 <!-- ═══ CANCIÓN ═══ -->
 <section class="section">
 <span class="sec-tag">la playlist</span>
